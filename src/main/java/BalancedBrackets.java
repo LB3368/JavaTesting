@@ -92,3 +92,5 @@ public class BalancedBrackets {
         System.out.println(mn.missingNumber(missingMax, 10));
     }
 }
+
+//This function uses a stack to track the opening brackets in the string. For each opening bracket, the function pushes it onto the stack. When it encounters a closing bracket, it pops the top element of the stack and checks if it matches the closing bracket. If it does, the function continues. If it doesn't, the function returns false.

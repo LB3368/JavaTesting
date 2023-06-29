@@ -48,7 +48,7 @@ public class BalancedBracketsTest {
 
     @Test
     public void testBalancedBrackets_mismatchedBrackets() {
-        assertTrue(bb.balancedBrackets("<({)}>"));
+        assertFalse(bb.balancedBrackets("<({)}>"));
     }
 
 }
